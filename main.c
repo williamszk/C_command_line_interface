@@ -10,11 +10,15 @@ int main(){
     printf("+-----------------------------------------+\n| This is a Command Line Interface.\n| This is a project to learn C programming\n|\n| William Suzuki\n| oct - 2020\n+-----------------------------------------+\n\n\n");
 
     while (state == 1){
-        printf(">");
+        printf(">>> ");
         scanf("%c", &command);
-        printf("%c",command);
+        printf("%c\n",command);
     }
 
 
     return 0;
 }
+
+
+import pandas as pd
+
